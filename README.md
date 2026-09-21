@@ -8,7 +8,7 @@ The portfolio showcases my skills, projects, experience, education and problem-s
 
 ## 🚀 Live Website
 
-🔗 **Portfolio:** [View Live Portfolio](luxury-tiramisu-e5088f.netlify.app)
+🔗 **Portfolio:** [View Live Portfolio](https://yusuf-portfolio.netlify.app/)
 
 ---
 
