@@ -19,6 +19,21 @@ const skillCategories = [
     title: 'Tools & Technologies',
     skills: ['Git', 'GitHub', 'VS Code', 'Netlify','Render'],
   },
+  {
+  title: 'Problem Solving',
+  skills: ['Data Structures & Algorithms'],
+  links: [
+    {
+      name: 'LeetCode',
+      url: 'https://leetcode.com/u/CKkJCltIZd/',
+    },
+    {
+      name: 'GeeksforGeeks',
+      url: 'https://www.geeksforgeeks.org/profile/yusriskdev?tab=activity',
+    },
+  ],
+},
+  
 ]
 
 function Skills() {
@@ -68,7 +83,21 @@ function Skills() {
                   </span>
                 ))}
               </div>
-
+              {category.links && (
+                    <div className="mt-4 flex flex-wrap gap-2">
+                      {category.links.map((link) => (
+                        <a
+                          key={link.name}
+                           href={link.url}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="rounded-lg border border-cyan-400/20 bg-cyan-400/5 px-3 py-2 text-sm font-medium text-cyan-400 transition hover:border-cyan-400/50 hover:bg-cyan-400/10"
+                        >
+                         {link.name} ↗
+                        </a>
+                      ))}
+                    </div>
+                   )}
             </div>
           ))}
 
