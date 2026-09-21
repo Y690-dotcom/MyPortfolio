@@ -38,7 +38,7 @@ function Education() {
 
             <div>
               <span className="rounded-lg bg-cyan-400/10 px-4 py-2 text-sm text-cyan-400">
-                3rd Year
+                Final Year
               </span>
             </div>
 
