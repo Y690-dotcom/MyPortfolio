@@ -15,7 +15,7 @@ const experiences = [
   },
 
   {
-    title: 'Smart India Hackathon',
+    title: 'UHACK 4.0',
     role: 'Team Project',
     description:
       'Worked as part of a team to develop a technology-based solution for monitoring and providing early warnings related to water-borne diseases in rural areas.',
